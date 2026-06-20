@@ -1,25 +1,15 @@
-## Build:
-/bin/
-/build/
-
-## Gradle:
-.gradle/
-
-## Java:
-*.class
-
-## IntelliJ:
-.idea/
-
-## Eclipse:
-.settings/
-.classpath
-.project
-*.launch
-
-## VSCode
+# Python & IDE
+.venv/
+__pycache__/
+*.py[oc]
+.egg-info
 .vscode/
+uv.lock
 
-## OS:
+# OS
 .DS_Store
-Thumbs.db
+
+# Project Specific
+/wheels/
+/dist/
+/build/
